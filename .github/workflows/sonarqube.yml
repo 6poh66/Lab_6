@@ -19,7 +19,7 @@ jobs:
           fetch-depth: 0
           ref: ${{ github.event.pull_request.head.sha }}
 
-      # Create backend test structur
+      # Create backend test structure
       - name: Setup backend test structure
         run: |
           mkdir -p backend-flask/tests
